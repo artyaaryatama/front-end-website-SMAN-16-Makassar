@@ -87,7 +87,7 @@
               <label>Perempuan</label>
             </div>
           </div>
- 
+  
           <div class="input-field">
             <label> Tempat Lahir </label>
             <input type="text" class="input" />
