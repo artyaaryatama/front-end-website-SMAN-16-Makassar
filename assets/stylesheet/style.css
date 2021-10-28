@@ -11,10 +11,14 @@ body{
     --merah-3 : #6A040F;
     --merah-4 : #9D0208;
     --abu : rgb(194, 194, 194);
+    --kuning-6 : #e85d04;
+    --kuning-7 : #FAA307;
     --hitam : #000;
 }
 
-/* MAIN STYLE */
+  /* ------------- 
+  NAVBAR STYLE 
+  ----------------*/
 .navbar {
     background-color: var(--putih);
     border-bottom: 1px #1d030c10 solid;
@@ -47,6 +51,10 @@ body{
     color: var(--merah-4);
 }
 
+  /* ------------- 
+  FOOTER STYLE 
+  ----------------*/
+
 .container-footer{
     background-color: var(--merah-2);
     padding: 20px;
@@ -76,7 +84,9 @@ body{
     font-weight: 500;
 }
 
-/* PENDAFTARAN STYLE */
+  /* ------------- 
+  PENDAFTARAN STYLE 
+  ----------------*/
 .wrapper-pendaftaran {
     max-width: 700px;
     width: 100%;
@@ -149,7 +159,7 @@ body{
     display: inline-block;
     visibility: visible;
     border: 2px solid white;
-  }
+  }   
   
   input[type="radio"]:checked:after {
     outline: none;
@@ -185,14 +195,14 @@ body{
   .wrapper-pendaftaran .form .input-field .token .input {
     width: 30%;
     outline: none;
-    border: 2px solid #ffaa75;
+    border: 2px solid var(--kuning-6);
     border-radius: 5px;
     padding: 4px 5px;
     font-size: 15px;
     transition: all 0.3s ease;
   }
   .wrapper-pendaftaran .form .input-field .token .input:focus {
-    border: 2px solid #e85d04;
+    border: 2px solid var(--kuning-6);
     color: var(--putih);
   }
   
@@ -233,3 +243,164 @@ body{
     }
   }
   
+  /* ------------- 
+  PENGURUS STYLE 
+  ----------------*/
+  .wrapper-pengurus .jumbotron{
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../image/header-jumbotron.jpg');
+      height: 50vh;
+      background-size: cover;
+      background-position: center;
+      border-radius: 0px!important;
+      display: flex;
+      align-items: center;
+      font-weight: 400;
+      font-size: 55px;
+      color: var(--putih);
+      letter-spacing: 6px;
+  }
+  .tree,
+.tree ul,
+.tree li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.tree {
+    margin: 0 0 1em;
+    text-align: center;
+    font-size: 17px;
+}
+
+.tree,
+.tree ul {
+    display: table;
+}
+
+.tree ul {
+    width: 100%;
+}
+
+.tree .mabigus, .tree .pembina{
+    vertical-align: top;
+}
+
+.tree .ketua, .tree .sekertaris{
+  display: table-cell;
+  padding: 2.5em 0 0;
+  vertical-align: top;
+}
+.tree .bendhara, .tree .pemangku,.tree .anggota{
+  display: table-cell;
+  padding: 0.5em 0;
+  vertical-align: top;
+}
+
+.tree li:before {
+    outline: solid 2px var(--kuning-7);
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 33px;  
+}
+
+.tree li:first-child:before {
+    left: 50%;
+}
+
+.tree li:last-child:before {
+    right: 50%;
+}
+
+.tree code,
+.tree span {
+    border: solid .2em var(--kuning-7);
+    border-radius: 1.2em;
+    display: inline-block;
+    padding: 1.2em 2.5em;
+    width: 18em;
+}
+
+.tree hr{
+  margin-top: 0em;
+}
+
+.tree b {
+  font-size: 23px;
+}
+
+.tree code,
+.mabigus span{
+    margin: 0 .2em .9em;
+}
+
+.tree code,
+.pembina span{
+    margin: 2.6em .2em .5em;
+}
+
+.tree code,
+.ketua span{
+    margin: 2.6em .2em .5em;
+}
+
+.tree code,
+.sekertaris span{
+    margin: 1.8em .2em .5em;
+}
+
+.tree code,
+.bendhara span{
+    margin: 3.5em .2em 0;
+}
+
+.tree code,
+.pemangku span{
+    margin: 3.5em .2em 0;
+}
+
+.tree code,
+.anggota span{
+    margin: 3.5em .2em .5em;
+}
+
+.tree ul:before,
+.tree code:before,
+.tree span:before {
+    outline: solid 2px var(--kuning-7);
+    content: "";
+    height: 2em;
+    left: 50%;
+    position: absolute;
+}
+
+.tree code:before, .pembina span:before {
+    top: -0.4em;
+    padding-top: 2em;
+}
+
+.tree code:before, .ketua span:before {
+    top: 2.6em;
+}
+.tree code:before,
+.sekertaris span:before, 
+.bendhara span:before, 
+.pemangku span:before, 
+.anggota span:before {
+    top: 1.5em;
+}
+
+
+.tree>li {
+    margin-top: 0;
+}
+
+.tree>li:before,
+.tree>li:after,
+.tree>li>code:before,
+.tree>li>span:before {
+    outline: none;
+}
