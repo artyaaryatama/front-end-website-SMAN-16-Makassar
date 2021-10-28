@@ -16,7 +16,7 @@
   </head>
   <body>
 
-    <!-- ==HEADER== -->
+    <!-- ==HEADER== --> 
     <div class="wrapper-navbar">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
@@ -32,7 +32,7 @@
                 <li class="nav-item  mr-4">
                   <a class="nav-link" href="#">Home</a>
                 </li>
-                <li class="nav-item dropdown active mr-4">
+                <li class="nav-item dropdown  mr-4">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Organisasi
                   </a>
@@ -41,10 +41,10 @@
                     <a class="dropdown-item" href="#">Visi misi</a>
                   </div>
                 </li>
-                <li class="nav-item mr-4">
+                <li class="nav-item  mr-4">
                   <a class="nav-link" href="#">Prestasi</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="#">Artikel</a>
                 </li>
               </ul>
@@ -56,85 +56,7 @@
     <!-- ==END OF HEADER== -->
 
     <!-- ==MAIN CONTENT== -->
-    <div class="wrapper-pendaftaran">
-      <div class="title">Form Pendaftaran</div>
-      <hr class="hr-gold">
-      <form>
-        <div class="form">
-          <div class="input-field">
-            <div class="token">
-              <label> Token </label>
-              <input type="text" class="input" />
-            </div>
-          </div>
-
-          <div class="input-field">
-            <label> Nama Lengkap </label>
-            <input type="text" class="input" />
-          </div>
-
-          <div class="input-field">
-            <label> Kelas </label>
-            <input type="text" class="input" />
-          </div>
-
-          <div class="input-field">
-            <label> Jenis Kelamin </label>
-            <div class="radio">
-              <input type="radio" name="jenis-kelamin" value="Laki-laki" />
-              <label>Laki-laki</label>
-              <input type="radio" name="jenis-kelamin" value="Perempuan" />
-              <label>Perempuan</label>
-            </div>
-          </div>
-  
-          <div class="input-field">
-            <label> Tempat Lahir </label>
-            <input type="text" class="input" />
-          </div>
-
-          <div class="input-field">
-            <label> Tanggal Lahir </label>
-            <input type="text" class="input" />
-          </div>
-
-          <div class="input-field">
-            <label> Alamat Rumah </label>
-            <input type="text" class="input" />
-          </div>
-
-          <div class="input-field">
-            <label> Hobi </label>
-            <input type="text" class="input" />
-          </div>
-
-          <div class="input-field">
-            <label> E-mail </label>
-            <input type="email" class="input" />
-          </div>
-
-          <div class="input-field">
-            <label> No. Telefon (WA) </label>
-            <input type="text" class="input" />
-          </div>
-
-          <div class="input-field">
-            <label> Pengalaman Organisasi </label>
-            <textarea class="textarea"></textarea>
-          </div>
-
-          <div class="input-field">
-            <label> Alasan Masuk Organisasi </label>
-            <textarea class="textarea"></textarea>
-          </div>
-
-          <div class="input-field">
-            <input type="reset" value="clear" />
-            <input type="submit" value="Daftar" class="btn" />
-          </div>
-        </div>
-      </form>
-    </div>
+    tulis disini kontennya
     <!-- ==END OF MAIN CONTENT== -->
 
     <!-- ==FOOTER== -->
