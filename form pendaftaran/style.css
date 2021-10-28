@@ -59,6 +59,9 @@ body {
   position: relative;
   width: 100%;
 }
+
+/* mengubah style dan warna untuk radio button  */
+/* 
 .wrapper .form .input-field .radio label {
   margin-left: 5px;
 }
@@ -89,7 +92,7 @@ input[type="radio"]:checked:after {
   display: inline-block;
   visibility: visible;
   background-color: #696969;
-}
+} */
 
 .wrapper .form .input-field .input:focus,
 .wrapper .form .input-field .textarea:focus {
