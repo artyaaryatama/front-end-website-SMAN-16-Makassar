@@ -170,7 +170,7 @@ body {
 .wrapper-pendaftaran .form .input-field .token .input {
   width: 30%;
   outline: none;
-  border: 2px solid var(--kuning-6);
+  border: 2px solid var(--kuning-7);
   border-radius: 5px;
   padding: 4px 5px;
   font-size: 15px;
@@ -296,11 +296,11 @@ body {
 
 .tree code,
 .tree span {
-    border: solid .2em var(--kuning-7);
-    border-radius: 1.2em;
-    display: inline-block;
-    padding: .9em 2.5em;
-    width: 18em;
+  border: solid 0.2em var(--kuning-7);
+  border-radius: 1.2em;
+  display: inline-block;
+  padding: 0.9em 2.5em;
+  width: 18em;
 }
 
 .tree hr {
@@ -378,47 +378,47 @@ body {
   margin-top: 0;
 }
 
-.tree>li:before,
-.tree>li:after,
-.tree>li>code:before,
-.tree>li>span:before {
-    outline: none;
+.tree > li:before,
+.tree > li:after,
+.tree > li > code:before,
+.tree > li > span:before {
+  outline: none;
 }
 
-  /* ------------- 
+/* ------------- 
   ARTIKEL STYLE 
   ----------------*/
 
-  .wrapper-artikel .title h1{
-    font-size: 56px;
-    font-weight: 600;
-  }
-
-  .wrapper-artikel .detail-artikel{
-    display: table;
-    margin: 0 -40px;
-  }
-
-  .wrapper-artikel .detail-artikel ul{
-    list-style: none;
-    color: var(--abu);
-    font-size: 20px;
-    font-weight: 500;
-  }
-
-  .wrapper-artikel .detail-artikel li {
-    display: inline;
-  }
-
-  .wrapper-artikel .konten .jumbotron{
-    background: url('../image/header-jumbotron.jpg');
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
-    border-radius: 0px!important;
+.wrapper-artikel .title h1 {
+  font-size: 56px;
+  font-weight: 600;
 }
 
-.wrapper-artikel .konten .isi-konten{
+.wrapper-artikel .detail-artikel {
+  display: table;
+  margin: 0 -40px;
+}
+
+.wrapper-artikel .detail-artikel ul {
+  list-style: none;
+  color: var(--abu);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.wrapper-artikel .detail-artikel li {
+  display: inline;
+}
+
+.wrapper-artikel .konten .jumbotron {
+  background: url("../image/header-jumbotron.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px !important;
+}
+
+.wrapper-artikel .konten .isi-konten {
   text-align: justify;
   text-indent: 0.5in;
   font-size: 18px;
@@ -429,18 +429,18 @@ body {
   margin-top: 80px;
 }
 
-.wrapper-artikel .artikel-lainnya ul{
+.wrapper-artikel .artikel-lainnya ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 
-.wrapper-artikel .artikel-lainnya p{
+.wrapper-artikel .artikel-lainnya p {
   font-size: 30px;
   font-weight: 400;
 }
 
-.wrapper-artikel .artikel-lainnya li a{
+.wrapper-artikel .artikel-lainnya li a {
   text-decoration: underline solid 2px var(--kuning-6);
   color: var(--kuning-6);
 }
@@ -450,29 +450,29 @@ body {
   margin-bottom: 30px;
 }
 
-.wrapper-artikel .card-artikel .card-img-top{
+.wrapper-artikel .card-artikel .card-img-top {
   object-fit: cover;
   height: 30vh;
 }
 
-.wrapper-artikel .card-artikel a{
+.wrapper-artikel .card-artikel a {
   text-decoration: none;
   color: var(--hitam);
 }
 
-.wrapper-artikel .card-artikel p{
+.wrapper-artikel .card-artikel p {
   font-size: 26px;
   font-weight: 650;
 }
 
-.wrapper-artikel .foto-card{
+.wrapper-artikel .foto-card {
   overflow: hidden;
 }
 
-.wrapper-artikel .foto-card img{
-  transition: all 1.3s  ease;
+.wrapper-artikel .foto-card img {
+  transition: all 1.3s ease;
 }
 
-.wrapper-artikel .foto-card:hover img{
+.wrapper-artikel .foto-card:hover img {
   transform: scale(1.1);
 }
