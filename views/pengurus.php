@@ -67,7 +67,7 @@
       </div>
 
       <div class="row">
-        <div class="col-md-3"></div>
+        <div class="col-md-3 col pengurus"></div>
         <div class="col-md-6">
           <ul class="tree">
             <li class="mabigus"> 
@@ -152,7 +152,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-3"></div>
+        <div class="col-md-3 col-pengurus"></div>
       </div>
 
     </div>
