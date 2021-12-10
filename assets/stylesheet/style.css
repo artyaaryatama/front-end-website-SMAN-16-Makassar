@@ -435,7 +435,7 @@ body {
   list-style: none;
 }
 
-.wrapper-artikel .artikel-lainnya p{
+.wrapper-artikel .artikel-lainnya li p{
   font-size: 30px;
   font-weight: 400;
 }
@@ -460,9 +460,9 @@ body {
   color: var(--hitam);
 }
 
-.wrapper-artikel .card-artikel p{
-  font-size: 26px;
-  font-weight: 650;
+.wrapper-artikel .card-artikel .card-body  p{
+  font-size: 20px;
+  font-weight: 530;
 }
 
 .wrapper-artikel .foto-card{
@@ -476,3 +476,4 @@ body {
 .wrapper-artikel .foto-card:hover img{
   transform: scale(1.1);
 }
+
