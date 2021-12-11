@@ -435,7 +435,7 @@ body {
   list-style: none;
 }
 
-.wrapper-artikel .artikel-lainnya p {
+.wrapper-artikel .artikel-lainnya li p {
   font-size: 30px;
   font-weight: 400;
 }
@@ -460,9 +460,9 @@ body {
   color: var(--hitam);
 }
 
-.wrapper-artikel .card-artikel p {
-  font-size: 26px;
-  font-weight: 650;
+.wrapper-artikel .card-artikel .card-body p {
+  font-size: 20px;
+  font-weight: 540;
 }
 
 .wrapper-artikel .foto-card {
@@ -475,4 +475,95 @@ body {
 
 .wrapper-artikel .foto-card:hover img {
   transform: scale(1.1);
+}
+
+
+/* ------------- 
+  PRESTASI STYLE 
+  ----------------*/
+.wrapper-prestasi .konten .jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../image/header-jumbotron.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px !important;
+  display: flex;
+  align-items: center
+}
+
+
+.wrapper-prestasi .jumbotron-text {
+  color: var(--putih);
+}
+
+.wrapper-prestasi .jumbotron-text h1 {
+  font-size: 100px;
+}
+.wrapper-prestasi .jumbotron-text p {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.wrapper-prestasi .search-bar {
+  height: 50px;
+  margin-left: auto;
+  width: fit-content;
+}
+
+.wrapper-prestasi .search-bar input {
+  padding: 8px 10px 2px;
+  font-size: 15px;
+  background-color: transparent;
+  border:none;
+  border-bottom: 1px solid var(--merah-2);
+  outline: none;
+}
+
+.wrapper-prestasi .search-bar input::placeholder{
+  font-size: 15px;
+  color: var(--merah-2);
+}
+
+.wrapper-prestasi .search-bar a{
+  color: var(--merah-2);
+}
+
+.wrapper-prestasi .prestasi .card {
+  border: none;
+  max-width: 700px;
+  margin: auto;
+}
+
+.wrapper-prestasi .prestasi .card img{
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.wrapper-prestasi .prestasi .card hr{
+  border-color: var(--merah-2);
+}
+
+.wrapper-prestasi .prestasi .card .btn {
+  color: var(--putih);
+  background-color: var(--merah-2);
+  font-size: 13px;
+}
+
+.wrapper-prestasi .prestasi .card h3  {
+  font-weight: 505;
+  font-size: 27px;
+}
+
+.wrapper-prestasi .prestasi .card p  {
+  font-size: 13px;
+}
+
+.wrapper-prestasi .prestasi .card .link-prestasi  {
+  text-align: right;
+}
+
+.wrapper-prestasi .prestasi .card .link-prestasi a{
+  font-size: 13px;
+  color: var(--merah-2);
 }
