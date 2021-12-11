@@ -56,7 +56,119 @@
     <!-- ==END OF HEADER== -->
 
     <!-- ==MAIN CONTENT== -->
-    tulis disini kontennya
+    <div class="wrapper-prestasi">
+      <div class="konten">
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+          <div class="container">
+            <div class="jumbotron-text">
+              <h1 class="display-4">Prestasi</h1>
+              <p>Paraga Scout sejak tahun 2009</p>
+            </div>
+          </div>
+        </div>
+        <!-- ==END OF JUMBOTRON== -->
+
+
+        <div class="container">
+          <div class="search-bar mt-5">
+            <input type="text" placeholder="Pencarian">
+            <a href="" type="button"><i class="fas fa-search"></i></a>
+          </div>
+
+          <!-- Prestasi kontent 1 -->
+          <div class="prestasi">
+            <div class="card mb-12">
+              <div class="row g-0 pt-2 pl-2">
+                <div class="col-md-4">
+                  <img
+                      src="../assets/image/header-jumbotron.jpg"
+                      alt="Trendy Pants and Shoes"
+                      class=""
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <button type="button" class="btn rounded-pill mb-2">Prestasi</button>
+                    <h3 class="card-title">Pramuka Pauddikmas Event</h3>
+                    <p class="card-text">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...
+                      </p>
+                    <div class="link-prestasi">
+                      <a href="">Baca Selengkapnya disini<i class="fas fa-arrow-right pl-2"></i></a>
+                      </div>
+                  </div>
+                </div>
+              </div><hr>
+              </div> 
+            </div> 
+          </div>
+
+          <!-- Prestasi kontent 2 -->
+          <div class="prestasi">
+            <div class="card mb-12">
+              <div class="row g-0 pt-2 pl-2">
+                <div class="col-md-4">
+                  <img
+                      src="../assets/image/header-jumbotron.jpg"
+                      alt="Trendy Pants and Shoes"
+                      class=""
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <button type="button" class="btn rounded-pill mb-2">Prestasi</button>
+                    <h3 class="card-title">Pramuka Pauddikmas Event</h3>
+                    <p class="card-text">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...
+                      </p>
+                    <div class="link-prestasi">
+                      <a href="">Baca Selengkapnya disini<i class="fas fa-arrow-right pl-2"></i></a>
+                      </div>
+                  </div>
+                </div>
+              </div><hr>
+              </div> 
+            </div> 
+          </div>
+
+          <!-- Prestasi kontent 3 -->
+          <div class="prestasi">
+            <div class="card mb-12">
+              <div class="row g-0 pt-2 pl-2">
+                <div class="col-md-4">
+                  <img
+                      src="../assets/image/header-jumbotron.jpg"
+                      alt="Trendy Pants and Shoes"
+                      class=""
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <button type="button" class="btn rounded-pill mb-2">Prestasi</button>
+                    <h3 class="card-title">Pramuka Pauddikmas Event</h3>
+                    <p class="card-text">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...
+                      </p>
+                    <div class="link-prestasi">
+                      <a href="">Baca Selengkapnya disini<i class="fas fa-arrow-right pl-2"></i></a>
+                      </div>
+                  </div>
+                </div>
+              </div><hr>
+              </div> 
+            </div> 
+          </div>
+
+          <div class="container-button">
+            <div class=" text-center mt-4 ">
+              <button type="button" class="btn btn-warning">Selanjutnya</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
     <!-- ==END OF MAIN CONTENT== -->
 
     <!-- ==FOOTER== -->
