@@ -429,6 +429,10 @@ body {
   margin-top: 80px;
 }
 
+.wrapper-artikel .artikel-lainnya hr {
+  border: solid 1px var(--merah-4);
+}
+
 .wrapper-artikel .artikel-lainnya ul {
   display: flex;
   justify-content: space-between;
@@ -438,11 +442,12 @@ body {
 .wrapper-artikel .artikel-lainnya li p {
   font-size: 30px;
   font-weight: 400;
+  color: var(--merah-4);
 }
 
-.wrapper-artikel .artikel-lainnya li a {
-  text-decoration: underline solid 2px var(--kuning-6);
-  color: var(--kuning-6);
+.wrapper-artikel .artikel-lainnya li a, .far {
+  color: var(--merah-4);
+  font-size: 18px;
 }
 
 .wrapper-artikel .artikel-lainnya hr {
@@ -450,9 +455,22 @@ body {
   margin-bottom: 30px;
 }
 
+.wrapper-artikel .card {
+  max-width: 100%;
+  border: solid 1px var(--abu);
+}
+
 .wrapper-artikel .card-artikel .card-img-top {
   object-fit: cover;
-  height: 30vh;
+  height: 40vh;
+  border-radius: 15px;
+  border-end-end-radius: 0px;
+  border-end-start-radius: 0px;
+
+}
+
+.wrapper-artikel .card-artikel .card {
+  border-radius: 15px;
 }
 
 .wrapper-artikel .card-artikel a {
@@ -461,8 +479,12 @@ body {
 }
 
 .wrapper-artikel .card-artikel .card-body p {
-  font-size: 20px;
-  font-weight: 540;
+  font-size: 31px;
+  font-weight: 510;
+  line-height: 30px;
+}
+.wrapper-artikel .card-artikel .card-body .selengkapnya{
+  text-decoration: underline;
 }
 
 .wrapper-artikel .foto-card {

@@ -89,7 +89,6 @@
           </p>
          </div>
         </div>
-        <!-- <hr> -->
 
         <div class="artikel-lainnya">
           <div class="container">  
@@ -105,12 +104,13 @@
 
                 <div class="col-md-4 col-sm-12 mb-3">
                   <a href="artikel.php">
-                    <div class="card h-100">
+                    <div class="card">
                       <div class="foto-card">
                         <img src="../assets/image/header-jumbotron.jpg" class="card-img-top" alt="...">
                       </div>
                       <div class="card-body">
-                        <p>Sejarah Kemerdekaan Indonesia</p>
+                        <p>Mau tau gimana indonesia merdeka Simak sejarahnya...</p>
+                        <a href="" class="selengkapnya">Baca Selengkapnya</a><i class="fas fa-arrow-right pl-2"></i>
                       </div>
                     </div>
                   </a>
@@ -118,12 +118,13 @@
 
                 <div class="col-md-4 col-sm-12 mb-3">
                   <a href="artikel.php">
-                    <div class="card h-100">
+                    <div class="card ">
                         <div class="foto-card">
                           <img src="../assets/image/logo.jpeg" class="card-img-top" alt="...">
                         </div>
                       <div class="card-body">
-                        <p>Sejarah Kemerdekaan  dasd asdas ad Kemerdekaan  dasd asdas addasdas</p>
+                        <p>Mau tau gimana indonesia merdeka Simak sejarahnya...</p>
+                        <a href="" class="selengkapnya">Baca Selengkapnya</a><i class="fas fa-arrow-right pl-2"></i>
                       </div>
                     </div>
                   </a>
@@ -131,12 +132,13 @@
 
                 <div class="col-md-4 col-sm-12 mb-3">
                   <a href="artikel.php">
-                    <div class="card h-100">
+                    <div class="card ">
                         <div class="foto-card">
                           <img src="../assets/image/header-jumbotron.jpg" class="card-img-top" alt="...">
                         </div>
                       <div class="card-body">
-                        <p>Sejarah Kemerdekaan Indonesia</p>
+                        <p>Mau tau gimana indonesia merdeka Simak sejarahnya...</p>
+                        <a href="" class="selengkapnya">Baca Selengkapnya</a><i class="fas fa-arrow-right pl-2"></i>
                       </div>
                     </div>
                   </a>
