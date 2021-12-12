@@ -56,7 +56,114 @@
     <!-- ==END OF HEADER== -->
 
     <!-- ==MAIN CONTENT== -->
-    tulis disini kontennya
+    <div class="wrapper-preview">
+
+        <div class="jumbotron">
+          <div class="jumbotron-text">
+            <h1 class="display-4">Artikel</h1>
+            <p>Seputar Paraga Scout </p>
+          </div>
+        </div>
+           <!-- ==END OF JUMBOTRON== -->
+
+           
+           <div class="konten">
+
+           <!-- SEARCH BAR -->
+             <div class="search-bar">
+              <input type="text" placeholder="Pencarian">
+              <a href="" type="button"><i class="fas fa-search"></i></a>
+             </div>
+
+              <!-- preview content 1 -->
+              <div class="preview-card">
+
+                <div class="container">
+                  <div class="preview-img">
+                    <img
+                      src="../assets/image/header-jumbotron.jpg"
+                      alt="Trendy Pants and Shoes"
+                      class=""
+                    />
+                  </div>
+
+                <div class="preview-artikel">
+                  <h3 class="card-title">Pramuka Pauddikmas Event</h3>
+                    <p class="card-text">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...
+                      </p>
+                      <h4 class="card-author">Reinhart</h4>
+                      <h4 class="card-date">22 Oktober 2021</h4>
+
+                    <div class="link-preview">
+                      <a href="">Baca Selengkapnya disini<i class="fas fa-arrow-right pl-2"></i></a>
+                    </div>
+
+                </div>
+               </div><hr>
+
+               <!-- preview content 2 -->
+               <div class="container">
+                  <div class="preview-img">
+                    <img
+                      src="../assets/image/header-jumbotron.jpg"
+                      alt="Trendy Pants and Shoes"
+                      class=""
+                    />
+                  </div>
+
+                  <div class="preview-artikel">
+                    <h3 class="card-title">Pramuka Pauddikmas Event</h3>
+                     <p class="card-text">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...
+                      </p>
+                      <h4 class="card-author">Reinhart</h4>
+                      <h4 class="card-date">22 Oktober 2021</h4>
+
+                    <div class="link-preview">
+                      <a href="">Baca Selengkapnya disini<i class="fas fa-arrow-right pl-2"></i></a>
+                    </div>
+
+                  </div>
+               </div><hr>
+
+               <!-- preview content 3 -->
+               <div class="container">
+                  <div class="preview-img">
+                    <img
+                      src="../assets/image/header-jumbotron.jpg"
+                      alt="Trendy Pants and Shoes"
+                      class=""
+                    />
+                  </div>
+
+                  <div class="preview-artikel">
+                    <h3 class="card-title">Pramuka Pauddikmas Event</h3>
+                     <p class="card-text">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...
+                      </p>
+                      <h4 class="card-author">Reinhart</h4>
+                      <h4 class="card-date">22 Oktober 2021</h4>
+
+                    <div class="link-preview">
+                      <a href="">Baca Selengkapnya disini<i class="fas fa-arrow-right pl-2"></i></a>
+                    </div>
+
+                  </div>
+               </div><hr>
+             </div>
+
+           </div>
+
+          
+
+           <div class="container-button">
+            <div class=" text-center mt-4 ">
+              <button type="button" class="btn btn-warning">Selanjutnya</button>
+            </div>
+          </div>
+
+    </div>
     <!-- ==END OF MAIN CONTENT== -->
 
     <!-- ==FOOTER== -->

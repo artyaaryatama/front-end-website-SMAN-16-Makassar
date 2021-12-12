@@ -56,7 +56,37 @@
     <!-- ==END OF HEADER== -->
 
     <!-- ==MAIN CONTENT== -->
-    tulis disini kontennya
+    <div class="wrapper-visi">
+      <div class="jumbotron">
+        <div class="container">
+          <h3 class="display-4 text-center"> Tentang Paraga Scout </h3>
+          <p class=" text-center">  Et ligula ullamcorper malesuada proin libero. Vel facilisis volutpat est velit egestas dui. Sit amet tellus cras adipiscing enim eu turpis egestas. Vitae tempus quam pellentesque nec nam. Ornare quam viverra orci sagittis eu volutpat. </p>
+        </div>
+      </div>
+     </div>
+
+     <div class="wrapper-visi-content">
+       <div class="content">
+
+          <h3>Visi</h3>
+          <h5>Et ligula ullamcorper malesuada proin libero. Vel facilisis volutpat est velit egestas dui. Sit amet tellus cras adipiscing enim eu turpis egestas. Vitae tempus quam pellentesque nec nam. Ornare quam viverra orci sagittis eu volutpat.</h5>
+
+          <br>
+          <h3>Misi</h3>
+          <h5>Et ligula ullamcorper malesuada proin libero. Vel facilisis volutpat est velit egestas dui. Sit amet tellus cras adipiscing enim eu turpis egestas. Vitae tempus quam pellentesque nec nam. Ornare quam viverra orci sagittis eu volutpat.</h5>
+
+       </div>
+       <!-- <div class="content">
+          <h3>haih</h3>
+          <h5>Et ligula ullamcorper malesuada proin libero. Vel facilisis volutpat est velit egestas dui. Sit amet tellus cras adipiscing enim eu turpis egestas. Vitae tempus quam pellentesque nec nam. Ornare quam viverra orci sagittis eu volutpat.</h5>
+
+          <h3>Misi</h3>
+          <h5>Et ligula ullamcorper malesuada proin libero. Vel facilisis volutpat est velit egestas dui. Sit amet tellus cras adipiscing enim eu turpis egestas. Vitae tempus quam pellentesque nec nam. Ornare quam viverra orci sagittis eu volutpat.</h5>
+
+       </div> -->
+       
+
+     </div>
     <!-- ==END OF MAIN CONTENT== -->
 
     <!-- ==FOOTER== -->
