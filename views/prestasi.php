@@ -45,7 +45,7 @@
                   <a class="nav-link" href="prestasi.php">Prestasi</a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="artikel.php">Artikel</a>
+                  <a class="nav-link" href="previewArtikel.php">Artikel</a>
                 </li>
               </ul>
             </div>
