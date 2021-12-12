@@ -567,3 +567,78 @@ body {
   font-size: 13px;
   color: var(--merah-2);
 }
+
+/* ------------- 
+  HOMEPAGE STYLE 
+  ----------------*/
+.wrapper-homepage .konten .jumbotron {
+  background: url("../image/header-jumbotron.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px !important; 
+}
+
+
+.wrapper-homepage .konten .img-deksripsi img{
+  max-width: 50%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+} 
+
+.wrapper-homepage .artikel-prestasi-card h4 {
+  font-weight: 510;
+  color: var(--merah-4);
+}
+
+.wrapper-homepage .artikel-prestasi-card hr {
+  border: 1px solid var(--merah-4);
+}
+.wrapper-homepage .wrapper-card .card{
+  border: none;
+}
+.wrapper-homepage .card-artikel .card-img-top {
+  object-fit: cover;
+  height: 35vh;
+  border-radius: 15px;
+}
+
+.wrapper-homepage .card-artikel a {
+  text-decoration: none;
+  color: var(--hitam);
+}
+
+.wrapper-homepage .card-artikel .card-body p {
+  font-size: 20px;
+  font-weight: 540;
+  color: var(--merah-4);
+}
+
+.wrapper-homepage .foto-card {
+  overflow: hidden;
+}
+
+.wrapper-homepage .foto-card img {
+  transition: all 1.3s ease;
+}
+
+.wrapper-homepage .foto-card:hover img {
+  transform: scale(1.1);
+}           
+
+.wrapper-homepage .artikel-prestasi-card .lainnya a{
+  font-size: 20px;
+  font-weight: 501;
+  color: var(--merah-4);
+  text-decoration: underline;
+}
+
+.wrapper-homepage .artikel-prestasi-card .lainnya .fas{
+  font-size: 20px;
+  color: var(--merah-4);
+}
